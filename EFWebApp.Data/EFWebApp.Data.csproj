@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8920E0F7-62C3-4075-AE04-A77E4ED21A0E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EFWebApp.Data</RootNamespace>
+    <AssemblyName>EFWebApp.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.3\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.3\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Context\ApplicationDbContext.cs" />
+    <Compile Include="Context\EFWebAppDbContext.cs" />
+    <Compile Include="Context\IEFWebAppDbContext.cs" />
+    <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\AccountType.cs" />
+    <Compile Include="Models\AgeGroup.cs" />
+    <Compile Include="Models\AuditLog.cs" />
+    <Compile Include="Models\AuditLogDetail.cs" />
+    <Compile Include="Models\BankAccount.cs" />
+    <Compile Include="Models\Base.cs" />
+    <Compile Include="Models\Contract.cs" />
+    <Compile Include="Models\CreditCard.cs" />
+    <Compile Include="Models\Education.cs" />
+    <Compile Include="Models\Hospital.cs" />
+    <Compile Include="Models\Identity\ApplicationUser.cs" />
+    <Compile Include="Models\Identity\CustomRole.cs" />
+    <Compile Include="Models\Identity\CustomUserClaim.cs" />
+    <Compile Include="Models\Identity\CustomUserLogin.cs" />
+    <Compile Include="Models\Identity\CustomUserRole.cs" />
+    <Compile Include="Models\Identity\CustomUserStore.cs" />
+    <Compile Include="Models\Invoice.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\PersonType.cs" />
+    <Compile Include="Models\Region.cs" />
+    <Compile Include="Models\Session.cs" />
+    <Compile Include="Models\SessionStatus.cs" />
+    <Compile Include="Models\SessionStatusType.cs" />
+    <Compile Include="Models\EFTimeZone.cs" />
+    <Compile Include="Models\Transaction.cs" />
+    <Compile Include="Models\TransactionItem.cs" />
+    <Compile Include="Models\TransactionType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EFWebApp.Common\EFWebApp.Common.csproj">
+      <Project>{C4C8D4A9-27C0-4633-A833-73CFA9854801}</Project>
+      <Name>EFWebApp.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

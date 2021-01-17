@@ -1,0 +1,17 @@
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\bin\Debug\EFWebApp.Data.dll.config
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\bin\Debug\EFWebApp.Data.dll
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\bin\Debug\EFWebApp.Data.pdb
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\bin\Debug\EntityFramework.dll
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\bin\Debug\EntityFramework.xml
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\obj\Debug\EFWebApp.Data.csprojAssemblyReference.cache
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\obj\Debug\EFWebApp.Data.csproj.CoreCompileInputs.cache
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\obj\Debug\EFWebApp.Data.csproj.CopyComplete
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\obj\Debug\EFWebApp.Data.dll
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.Data\obj\Debug\EFWebApp.Data.pdb

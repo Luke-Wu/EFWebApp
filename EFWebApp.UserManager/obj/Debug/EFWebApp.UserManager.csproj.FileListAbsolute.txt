@@ -1,0 +1,2 @@
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.UserManager\obj\Debug\EFWebApp.UserManager.csprojAssemblyReference.cache
+D:\Luke Folder\Luke Project\EFWebApp\EFWebApp\EFWebApp.UserManager\obj\Debug\EFWebApp.UserManager.csproj.CoreCompileInputs.cache
